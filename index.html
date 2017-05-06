@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>My CV</title>
+    <!-- normalize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- navbar-header -->
+        <div class="navbar-header">
+            <!-- RWD按鈕 -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-list">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <a href="#" class="navbar-brand">Tim</a>
+        </div>
+
+        <!-- 主要導覽按鈕區 -->
+        <div class="collapse navbar-collapse" id="nav-list">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#skill">skill</a></li>
+                <li><a href="#license">license</a></li>
+                <li><a href="#hobby">hobby</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <section id="mainPic">
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="introduction-box">
+                        <h1 id="introduction">Hi, I'm Tim</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <article>
+        <section id="experience">
+            <div class="container">
+                <h1>experience</h1>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-6">
+                        <h3 class="company">CyberSoft Digital Services Corp.</h3>
+                        <h4 class="job-title">chief engineer</h4>
+                        <h5 class="job-year">2013/05~</h5>
+                    </div>
+                    <div class="com-md-4 col-sm-4 com-xs-6">
+                        <h3 class="company">taishin bank Information Dep</h3>
+                        <h4 class="job-title">chief engineer</h4>
+                        <h5 class="job-year">2002/12~2013/05</h5>
+                    </div>
+                    <div class="com-md-4 col-sm-4 com-xs-6">
+                        <h3 class="company">Weilih Info</h3>
+                        <h4 class="job-title">system engineer</h4>
+                        <h5 class="job-year">2000/03~2002/12</h5>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="skill">
+            <div class="container">
+                <h1>skill</h1>
+                <div class="row">
+                    <div class="col-md12 col-sm-12 col-lg-12">
+                        <h3 class="programming">
+                            <ul>
+                                <li>html</li>
+                                <li>css</li>
+                                <li>asp.net</li>
+                                <li>vb</li>
+                                <li>excel vba</li>
+                            </ul>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="license">
+            <div class="container">
+                <h1>license</h1>
+                <div class="row">
+                    <div class="col-xs-6 col-md-6 col-sm-6 col-lg-6">
+                        <div class="license-photo" id="MCSE"></div>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-sm-6 col-lg-6">
+                        <div class="license-photo" id="RHCE"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="hobby">
+            <div class="container-fluid">
+                <h1>hobby</h1>
+                <h2>Table Tennis</h2>
+                <!--輪播開始-->
+                <div id="slideshow" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <!--輪播圖片或內容-->
+                        <div class="item active">
+                            <div class="photo col-xs-6 col-sm-6 col-md-6 col-lg-6" id="mastermulti"></div>
+                            <div class="intro col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <h3>Donic Master Multi Power V3</h3>
+                                <p>從小我便跟著父親打球，使用直拍，程度就謹只於玩玩，於2004年便正式與張教練學球，初時學直拍，但一期下來便發現不會再有進步，因過去20年的玩玩很多打球姿勢皆固定改不過來，第二期起改打橫拍，便請教練推薦，為純木九夾攻擊拍，打了2年始終還是覺得太快適應不了</p>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="photo col-xs-6 col-sm-6 col-md-6 col-lg-6" id="powerplay"></div>
+                            <div class="intro col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <h3>Donic Persson Powerplay Senso V2</h3>
+                                <p>第3年起對膠皮也有一些心得了，順便換下了Master Multi九夾板，換上了純木七夾板，這支拍子屬軟板打控球，逐漸不適合我的球風</p>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="photo col-xs-6 col-sm-6 col-md-6 col-lg-6" id="sword"></div>
+                            <div class="intro col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <h3>Sword 怪拍王</h3>
+                                <p>2011年起有感於每每遇到使用顆粒的選手便不敵的囧境，我也開始學顆粒的打法，怪拍王是張奇特的板子，兩面紋路不同使得膠皮速度亦有很大差異，木紋為直紋的適合貼短顆料，橫紋面適合貼長顆粒，正反打短顆反手長顆，短顆的打法與平面差不多就是磨擦力較小，而長顆則有大不同，來球為側旋或上旋時需借力使力－擠，來球為下旋時需撞回，總而言之就是不同程度的撞擊，因需時刻注意對手的擊球方式，這對我球技的進步大有幫助，但反手的技術與我先前打平面時有著截然不同的打法，不甚習慣</p>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="photo col-xs-6 col-sm-6 col-md-6 col-lg-6" id="dhs"></div>
+                            <div class="intro col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <h3>DHS 狂飆王</h3>
+                                <p>學球的第5年時對於底板、膠皮、球技也有一定程式後，我換上了最滿意的球拍，這是支5夾的攻擊拍，雖然是中國製的，但做工決不含糊，這支拍子也陪著我爭戰四方，雖於第7年起改練顆粒板，所幸有達成練習目標，最終再度換回我熟悉的戰拍迄今</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--上一頁 下一頁 按鈕-->
+                    <div class="control-btn">
+                        <a href="#slideshow" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                        <a href="#slideshow" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right" ></span></a>
+                    </div>
+                    <!--小圓點換頁-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                        <li data-target="#slideshow" data-slide-to="3"></li>
+                    </ol>
+                </div>
+                <!--輪播結尾-->
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <h2>Linux Mail</h2>
+                        <p>有了RHCE後便安裝了自己的email服務，以下是先後用過的版本</p>
+                        <ul>
+                            <li>Sendmail & Neomail 1.13</li>
+                            <li>Postfix OpenWebmail + vm-pop3d</li>
+                            <li>iRedMail</li>
+                            <li>Zimbra</li>
+                            <li>ISPConfig 3</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <h2>Woodwork</h2>
+                        <p>北科大 城市魯班 2014~2015</p>
+                        <p>學成後陸續買了多樣工具</p>
+                        <ul>
+                            <li>平台式圓鋸機 Bosch GTS1031</li>
+                            <li>雕刻機</li>
+                            <li>手持式電鑽</li>
+                            <li>線鋸機</li>
+                            <li>砂紙研磨機</li>
+                            <li>集塵機 Festool CT Midi</li>
+                            <li>空壓機</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer id="contact">
+        <div class="container-fluid">
+            <h1>contact</h1>
+            <ul>
+                <li>Cheng Guei Dung (Tim)</li>
+                <li>+886-919-204-570</li>
+                <li>ejoejo@outlook.com</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

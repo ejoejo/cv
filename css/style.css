@@ -1,0 +1,122 @@
+.jumbotron {
+    position: relative;
+    height: 600px;
+    background-image: url('https://unsplash.it/700/600?image=961');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#introduction {
+    color: white;
+    line-height: 500px;
+    text-align: center;
+}
+
+article section:nth-child(even) {
+    background-image: url('../img/white-stripe-repeat-bg.jpg');
+}
+
+article section h1 {
+    margin-bottom: 12px;
+}
+
+ul li a {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.license-photo {
+    width: 200px;
+}
+
+#MCSE {
+    height: 100px;
+    background-image: url('../img/mcse.gif');
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#RHCE {
+    height: 100px;
+    background-image: url('../img/RHCE.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    display: table;
+}
+
+.programming li {
+    list-style: none;
+    text-align: center;
+}
+
+#hobby h2 {
+    text-align: center;
+}
+
+#hobby .photo {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+}
+
+#experience {
+    padding: 40px 0 40px 0;
+}
+
+#skill {
+    padding: 40px 0 40px 0;
+}
+
+#license {
+    padding: 40px 0 40px 0;
+}
+
+#hobby {
+    padding: 40px 0 40px 0;
+}
+
+#hobby .container-fluid {
+    height: 500px;
+}
+
+#dhs {
+    background-image: url('../img/dhs.gif');
+}
+
+#mastermulti {
+    background-image: url('../img/mastermulti.jpg');
+}
+
+#powerplay {
+    background-image: url('../img/powerplay.jpg')
+}
+
+#sword {
+    background-image: url('../img/sword.jpg');
+}
+
+article h1,
+footer h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer .container-fluid {
+    height: 600px;
+}
+
+footer li {
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+#contact {
+    padding: 40px 0 40px 0;
+}
