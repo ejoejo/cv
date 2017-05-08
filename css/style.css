@@ -27,32 +27,6 @@ ul li a {
     text-transform: uppercase;
 }
 
-.license-photo {
-    width: 200px;
-}
-
-#MCSE {
-    height: 100px;
-    background-image: url('../img/mcse.gif');
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    background-size: contain;
-}
-
-#RHCE {
-    height: 100px;
-    background-image: url('../img/RHCE.png');
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    background-size: contain;
-    display: table;
-}
-
-.programming li {
-    list-style: none;
-    text-align: center;
-}
-
 #hobby h2 {
     text-align: center;
 }
@@ -69,8 +43,42 @@ ul li a {
     padding: 40px 0 40px 0;
 }
 
+.company,
+.job-title {
+    text-transform: capitalize;
+}
+
 #skill {
     padding: 40px 0 40px 0;
+}
+
+.license-photo {
+    width: 200px;
+}
+
+#MCSE {
+    height: 100px;
+    background-image: url('../img/mcse.gif');
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#RHCE {
+    height: 100px;
+    background-image: url('../img/RHCE.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.programming {
+    text-transform: uppercase;
+}
+
+.programming li {
+    list-style: none;
+    text-align: center;
 }
 
 #license {
