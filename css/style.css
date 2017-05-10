@@ -21,10 +21,6 @@ article section:nth-child(even) {
     background-image: url('../img/white-stripe-repeat-bg.jpg');
 }
 
-article section h1 {
-    margin-bottom: 12px;
-}
-
 ul li a {
     padding: 0;
     margin: 0;
@@ -67,6 +63,7 @@ ul li a {
 
 #MCSE {
     height: 100px;
+    margin-top: 10px;
     background-image: url('../img/mcse.gif');
     background-repeat: no-repeat;
     -webkit-background-size: contain;
@@ -122,6 +119,9 @@ article h1,
 footer h1 {
     text-transform: uppercase;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 2px
 }
 
 footer .container-fluid {
