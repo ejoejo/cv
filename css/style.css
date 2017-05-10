@@ -1,3 +1,7 @@
+body {
+    position: relative;
+}
+
 .jumbotron {
     position: relative;
     height: 600px;
@@ -37,6 +41,11 @@ ul li a {
     background-size: contain;
     margin: 0;
     padding: 0;
+}
+
+#slideshow item {
+    height: 320px;
+    background-color: none;
 }
 
 #experience {
@@ -127,4 +136,28 @@ footer li {
 
 #contact {
     padding: 40px 0 40px 0;
+}
+
+#scrollTopBtn {
+    width: 70px;
+    height: 70px;
+    background-color: #2462aa;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    display: none;
+}
+
+#scrollTopBtn.scroll {
+    display: block;
+}
+
+#scrollTopBtn:hover,
+#scrollTopBtn:focus {
+    text-decoration: none;
+    outline: none;
 }

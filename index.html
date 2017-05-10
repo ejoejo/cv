@@ -14,19 +14,21 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-default navbar-fixed-top">
         <!-- navbar-header -->
         <div class="navbar-header">
             <!-- RWD按鈕 -->
+            <a href="#" class="navbar-brand">Tim</a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-list">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-            <a href="#" class="navbar-brand">Tim</a>
         </div>
 
         <!-- 主要導覽按鈕區 -->
@@ -40,16 +42,12 @@
             </ul>
         </div>
     </nav>
-    <header>
-        <section id="mainPic">
-            <div class="jumbotron">
-                <div class="container">
-                    <div class="introduction-box">
-                        <h1 id="introduction">Hi, I'm Tim</h1>
-                    </div>
-                </div>
+    <header id="header" class="jumbotron">
+        <div class="container">
+            <div class="introduction-box">
+                <h1 id="introduction">Hi, I'm Tim</h1>
             </div>
-        </section>
+        </div>
     </header>
     <article>
         <section id="experience">
@@ -111,7 +109,7 @@
                 <h1>hobby</h1>
                 <h2>Table Tennis</h2>
                 <!--輪播開始-->
-                <div id="slideshow" class="carousel slide" data-ride="carousel">
+                <div id="slideshow" class="carousel slide" data-ride="carousel" data-interval="8000">
                     <div class="carousel-inner" role="listbox">
                         <!--輪播圖片或內容-->
                         <div class="item active">
@@ -202,6 +200,7 @@
             </ul>
         </div>
     </footer>
+    <a href="#header" id="scrollTopBtn">Go Back</a>
 </body>
 
 </html>
