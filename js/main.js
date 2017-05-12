@@ -21,13 +21,9 @@ $(function () {
 });
 
 $(window).scroll(function () {
-    // 以上條件發生時所做的處理
-    // 把$(window).scrollTop()存到$scrollPosition
     var $scrollPosition = $(window).scrollTop();
-    // 把()的內容印到console裡面
     console.log($scrollPosition);
 
-    //如果$scrollPosition大於500
     if ($scrollPosition > 500) {
         //#scrollTopBtn加上class scroll
         //第一種方法：$('#scrollTopBtn').addClass('scroll');
@@ -38,11 +34,4 @@ $(window).scroll(function () {
         //$('#scrollTopBtn').removeClass('scroll');
         $('#scrollTopBtn').fadeOut();
     }
-
-    if ($scrollPosition > 20) {
-        $('#header').addClass('scroll');
-    } else {
-        $('#header').removeClass('scroll');
-    }
-
 });
