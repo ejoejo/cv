@@ -39,7 +39,7 @@ article section:nth-child(even) {
     padding: 0;
 }
 
-#slideshow item {
+#slideshow {
     height: 320px;
     background-color: none;
 }
